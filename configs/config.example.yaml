@@ -1,0 +1,43 @@
+# G²CP Configuration
+# Copy to config.yaml and fill in your credentials
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: ""  # Set your Neo4j password
+  database: "neo4j"
+
+llm:
+  provider: "openai"          # openai | local
+  api_key: ""                 # Set your OpenAI API key
+  model: "gpt-4"              # Model for query understanding
+  response_model: "gpt-4"    # Model for response generation
+  temperature: 0.0
+  max_tokens: 1024
+  base_url: null              # Set for local/proxy endpoints
+
+embeddings:
+  model: "all-MiniLM-L6-v2"  # Sentence transformer model
+  threshold: 0.85             # Entity linking similarity threshold
+
+engine:
+  max_traversal_depth: 5
+  max_result_nodes: 5000
+  traversal_timeout_s: 30.0
+
+security:
+  enabled: true
+  trust_decay: 0.9
+  min_trust_threshold: 0.5
+
+data:
+  knowledge_graph_dir: "data/knowledge_graph"
+  queries_file: "data/queries/test_queries.json"
+
+evaluation:
+  output_dir: "results"
+  systems:
+    - "g2cp"
+    - "ftma"
+    - "jsma"
+    - "single"

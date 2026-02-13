@@ -1,0 +1,67 @@
+{
+  "description": "Turbomatic MKII Hydraulic Press Knowledge Graph Schema",
+  "version": "1.0",
+  "node_types": {
+    "Component": {
+      "description": "Physical equipment components",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["serial_number", "install_date", "rated_pressure", "rated_temperature", "location"]
+    },
+    "Fault": {
+      "description": "Known failure modes and fault conditions",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["severity", "description", "mtbf_hours"]
+    },
+    "Symptom": {
+      "description": "Observable symptoms indicating potential faults",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["severity", "measurement_type", "threshold"]
+    },
+    "Procedure": {
+      "description": "Maintenance and repair procedures",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["estimated_hours", "skill_level", "steps"]
+    },
+    "WorkOrder": {
+      "description": "Historical maintenance work orders",
+      "required_fields": ["uid", "date"],
+      "optional_fields": ["technician", "duration_hours", "outcome"]
+    },
+    "Part": {
+      "description": "Replacement parts and consumables",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["part_number", "cost", "lead_time_days", "supplier"]
+    },
+    "Sensor": {
+      "description": "Monitoring sensors and their readings",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["type", "unit", "normal_range_min", "normal_range_max"]
+    },
+    "SafetyProtocol": {
+      "description": "Safety procedures and requirements",
+      "required_fields": ["uid", "name"],
+      "optional_fields": ["ppe_required", "lockout_required", "hazard_level"]
+    }
+  },
+  "edge_types": {
+    "causes": {"from": ["Fault", "Component"], "to": ["Fault"], "description": "Causal relationship"},
+    "indicates": {"from": ["Symptom", "Sensor"], "to": ["Fault"], "description": "Symptom indicates fault"},
+    "correlates_with": {"from": ["Fault", "Sensor"], "to": ["Fault", "Sensor"], "description": "Statistical correlation"},
+    "addressed_by": {"from": ["Fault"], "to": ["Procedure"], "description": "Fault fixed by procedure"},
+    "requires": {"from": ["Procedure"], "to": ["Part"], "description": "Procedure needs part"},
+    "precedes": {"from": ["Procedure"], "to": ["Procedure"], "description": "Procedure ordering"},
+    "has_safety_protocol": {"from": ["Procedure", "Component"], "to": ["SafetyProtocol"], "description": "Safety requirement"},
+    "occurred_in": {"from": ["Fault", "Component"], "to": ["WorkOrder"], "description": "Fault in work order"},
+    "replaced_in": {"from": ["Part"], "to": ["WorkOrder"], "description": "Part replaced in WO"},
+    "failed_after": {"from": ["Component"], "to": ["Component"], "description": "Cascading failure"},
+    "part_of": {"from": ["Component", "Part"], "to": ["Component"], "description": "Part-of hierarchy"},
+    "risk_indicator": {"from": ["Fault", "Component"], "to": ["Sensor"], "description": "Risk signal"}
+  },
+  "statistics": {
+    "total_nodes": 1247,
+    "total_edges": 3892,
+    "density": 0.005,
+    "average_degree": 6.24,
+    "diameter": 8
+  }
+}

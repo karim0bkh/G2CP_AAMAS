@@ -1,0 +1,8012 @@
+[
+  {
+    "id": "Q-0000",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0001",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0002",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0003",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0004",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0005",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0006",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0007",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0008",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0009",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0010",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0011",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0012",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0013",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0014",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0015",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0016",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0017",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0018",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0019",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0020",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0021",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0022",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0023",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0024",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0025",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0026",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0027",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0028",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0029",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0030",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0031",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0032",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0033",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0034",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0035",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0036",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0037",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0038",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0039",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0040",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0041",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0042",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0043",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0044",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0045",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0046",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0047",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0048",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0049",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0050",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0051",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0052",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0053",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0054",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0055",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0056",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0057",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0058",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0059",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0060",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0061",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0062",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0063",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0064",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0065",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0066",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0067",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0068",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0069",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0070",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0071",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0072",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0073",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0074",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0075",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0076",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0077",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0078",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0079",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0080",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0081",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0082",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0083",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0084",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0085",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0086",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0087",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0088",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0089",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0090",
+    "category": "factoid",
+    "query": "What is the rated pressure of pump P-101?",
+    "ground_truth": {
+      "answer": "350 bar",
+      "entities": [
+        "Component:main_pump_P101"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0091",
+    "category": "factoid",
+    "query": "List all sensors on hydraulic circuit HC-3",
+    "ground_truth": {
+      "answer": "Filter Unit FU-1 (part_of)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0092",
+    "category": "factoid",
+    "query": "What parts does procedure P-205 require?",
+    "ground_truth": {
+      "answer": "SKF 6210 Bearing",
+      "entities": [
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0093",
+    "category": "factoid",
+    "query": "What is the cost of seal kit VIT200?",
+    "ground_truth": {
+      "answer": "120.0",
+      "entities": [
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0094",
+    "category": "factoid",
+    "query": "What safety protocols apply to procedure P-301?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout, SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0095",
+    "category": "factoid",
+    "query": "What is the serial number of bearing B-4521?",
+    "ground_truth": {
+      "answer": "SN-B4521",
+      "entities": [
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0096",
+    "category": "factoid",
+    "query": "What is the MTBF for bearing wear fault?",
+    "ground_truth": {
+      "answer": "8000 hours",
+      "entities": [
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0097",
+    "category": "factoid",
+    "query": "What is the normal temperature range for sensor S2?",
+    "ground_truth": {
+      "answer": "30-70 celsius",
+      "entities": [
+        "Sensor:temp_S2"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0098",
+    "category": "factoid",
+    "query": "What skill level is needed for procedure P-110?",
+    "ground_truth": {
+      "answer": "intermediate",
+      "entities": [
+        "Procedure:P-110"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0099",
+    "category": "factoid",
+    "query": "What is the oil reservoir capacity?",
+    "ground_truth": {
+      "answer": "500 liters",
+      "entities": [
+        "Component:oil_reservoir_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0100",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0101",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0102",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0103",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0104",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0105",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0106",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0107",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0108",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0109",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0110",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0111",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0112",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0113",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0114",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0115",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0116",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0117",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0118",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0119",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0120",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0121",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0122",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0123",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0124",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0125",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0126",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0127",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0128",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0129",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0130",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0131",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0132",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0133",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0134",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0135",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0136",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0137",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0138",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0139",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0140",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0141",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0142",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0143",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0144",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0145",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0146",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0147",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0148",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0149",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0150",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0151",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0152",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0153",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0154",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0155",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0156",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0157",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0158",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0159",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0160",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0161",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0162",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0163",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0164",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0165",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0166",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0167",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0168",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0169",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0170",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0171",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0172",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0173",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0174",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0175",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0176",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0177",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0178",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0179",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0180",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0181",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0182",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0183",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0184",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0185",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0186",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0187",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0188",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0189",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0190",
+    "category": "diagnostic",
+    "query": "Why is there grinding noise at 1200 RPM?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Fault:bearing_wear_B4521"
+      ],
+      "path": [
+        "grinding_1200RPM",
+        "indicates",
+        "bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0191",
+    "category": "diagnostic",
+    "query": "Diagnose: pressure drop + high temp in circuit HC-3",
+    "ground_truth": {
+      "answer": "Seal degradation caused by overheating",
+      "entities": [
+        "Symptom:pressure_drop",
+        "Symptom:temp_85C",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0192",
+    "category": "diagnostic",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and 85C oil temperature. What is wrong?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Symptom:temp_85C",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0193",
+    "category": "diagnostic",
+    "query": "What causes flow reduction?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging",
+      "entities": [
+        "Symptom:flow_reduction",
+        "Fault:valve_blockage",
+        "Fault:filter_clog"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0194",
+    "category": "diagnostic",
+    "query": "The oil is dark and contaminated. What fault does this indicate?",
+    "ground_truth": {
+      "answer": "Oil contamination",
+      "entities": [
+        "Symptom:dark_oil",
+        "Fault:oil_contamination"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0195",
+    "category": "diagnostic",
+    "query": "High vibration detected. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Misalignment or bearing wear",
+      "entities": [
+        "Symptom:vibration_high",
+        "Fault:misalignment",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0196",
+    "category": "diagnostic",
+    "query": "Whining noise from pump area. Diagnosis?",
+    "ground_truth": {
+      "answer": "Pump cavitation",
+      "entities": [
+        "Symptom:noise_whining",
+        "Fault:pump_cavitation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0197",
+    "category": "diagnostic",
+    "query": "External leak detected. What is the likely fault?",
+    "ground_truth": {
+      "answer": "Seal degradation",
+      "entities": [
+        "Symptom:leak_external",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0198",
+    "category": "diagnostic",
+    "query": "Actuator responding slowly. What could be wrong?",
+    "ground_truth": {
+      "answer": "Valve blockage",
+      "entities": [
+        "Symptom:slow_response",
+        "Fault:valve_blockage"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0199",
+    "category": "diagnostic",
+    "query": "Multiple symptoms: pressure fluctuation and grinding noise. Diagnosis?",
+    "ground_truth": {
+      "answer": "Bearing Wear B-4521 (convergent)",
+      "entities": [
+        "Symptom:grinding_1200RPM",
+        "Symptom:pressure_fluctuation",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0200",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0201",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0202",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0203",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0204",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0205",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0206",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0207",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0208",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0209",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0210",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0211",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0212",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0213",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0214",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0215",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0216",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0217",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0218",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0219",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0220",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0221",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0222",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0223",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0224",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0225",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0226",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0227",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0228",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0229",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0230",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0231",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0232",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0233",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0234",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0235",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0236",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0237",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0238",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0239",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0240",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0241",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0242",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0243",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0244",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0245",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0246",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0247",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0248",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0249",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0250",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0251",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0252",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0253",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0254",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0255",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0256",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0257",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0258",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0259",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0260",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0261",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0262",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0263",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0264",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0265",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0266",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0267",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0268",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0269",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0270",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0271",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0272",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0273",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0274",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0275",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0276",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0277",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0278",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0279",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0280",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0281",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0282",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0283",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0284",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0285",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0286",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0287",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0288",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0289",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0290",
+    "category": "procedural",
+    "query": "How do I replace bearing B-4521?",
+    "ground_truth": {
+      "answer": "Procedure P-205, requires SKF 6210 bearing",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Procedure:P-205",
+        "Part:bearing_SKF_6210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0291",
+    "category": "procedural",
+    "query": "Full procedure for seal kit replacement on HP-2",
+    "ground_truth": {
+      "answer": "Procedure P-110 with Viton seal kit and O-ring kit",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0292",
+    "category": "procedural",
+    "query": "What procedure addresses pump cavitation?",
+    "ground_truth": {
+      "answer": "P-301 Pump Overhaul",
+      "entities": [
+        "Fault:pump_cavitation",
+        "Procedure:P-301"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0293",
+    "category": "procedural",
+    "query": "Steps to fix oil contamination?",
+    "ground_truth": {
+      "answer": "P-400 Oil Flush and Replace",
+      "entities": [
+        "Fault:oil_contamination",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0294",
+    "category": "procedural",
+    "query": "Filter replacement procedure and required parts?",
+    "ground_truth": {
+      "answer": "P-102, requires HF-10 filter element",
+      "entities": [
+        "Procedure:P-102",
+        "Part:filter_element_HF10"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0295",
+    "category": "procedural",
+    "query": "What safety protocols do I need for bearing replacement?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release",
+      "entities": [
+        "Procedure:P-205",
+        "SafetyProtocol:SP-001",
+        "SafetyProtocol:SP-002"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0296",
+    "category": "procedural",
+    "query": "How to fix valve blockage?",
+    "ground_truth": {
+      "answer": "P-210 Valve Cleaning",
+      "entities": [
+        "Fault:valve_blockage",
+        "Procedure:P-210"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0297",
+    "category": "procedural",
+    "query": "Alignment check procedure details?",
+    "ground_truth": {
+      "answer": "P-150, 2 hours, intermediate skill",
+      "entities": [
+        "Procedure:P-150"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0298",
+    "category": "procedural",
+    "query": "Complete repair workflow for pressure loss",
+    "ground_truth": {
+      "answer": "P-500 then P-205",
+      "entities": [
+        "Fault:pressure_loss",
+        "Procedure:P-500",
+        "Procedure:P-205"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0299",
+    "category": "procedural",
+    "query": "What parts should I order for a seal kit replacement?",
+    "ground_truth": {
+      "answer": "VIT-200-KIT and OR-STD-KIT",
+      "entities": [
+        "Procedure:P-110",
+        "Part:seal_kit_VIT200",
+        "Part:o_ring_kit_OR1"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0300",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0301",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0302",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0303",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0304",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0305",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0306",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0307",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0308",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0309",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0310",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0311",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0312",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0313",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0314",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0315",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0316",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0317",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0318",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0319",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0320",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0321",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0322",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0323",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0324",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0325",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0326",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0327",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0328",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0329",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0330",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0331",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0332",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0333",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0334",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0335",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0336",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0337",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0338",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0339",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0340",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0341",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0342",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0343",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0344",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0345",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0346",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0347",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0348",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0349",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0350",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0351",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0352",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0353",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0354",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0355",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0356",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0357",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0358",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0359",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0360",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0361",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0362",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0363",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0364",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0365",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0366",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0367",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0368",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0369",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0370",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0371",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0372",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0373",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0374",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0375",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0376",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0377",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0378",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0379",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0380",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0381",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0382",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0383",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0384",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0385",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0386",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0387",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0388",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0389",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0390",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0391",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0392",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0393",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0394",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0395",
+    "category": "relational",
+    "query": "Which faults affect both circuit HC-3 and HC-7?",
+    "ground_truth": {
+      "answer": "Pressure loss (shared)",
+      "entities": [
+        "Component:hydraulic_circuit_HC3",
+        "Component:hydraulic_circuit_HC7"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0396",
+    "category": "relational",
+    "query": "What parts are needed for all pending work orders?",
+    "ground_truth": {
+      "answer": "Aggregated parts list",
+      "entities": [
+        "Part:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 5
+    }
+  },
+  {
+    "id": "Q-0397",
+    "category": "relational",
+    "query": "Which components share common failure modes?",
+    "ground_truth": {
+      "answer": "Pump and bearing share vibration-related faults",
+      "entities": [
+        "Component:main_pump_P101",
+        "Component:bearing_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0398",
+    "category": "relational",
+    "query": "What is the relationship between temperature sensor and bearing failures?",
+    "ground_truth": {
+      "answer": "temp_85C causes lubrication_failure causes bearing_wear",
+      "entities": [
+        "Sensor:temp_S2",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0399",
+    "category": "relational",
+    "query": "Which procedures require the most parts?",
+    "ground_truth": {
+      "answer": "P-110 and P-400 (2 parts each)",
+      "entities": [
+        "Procedure:P-110",
+        "Procedure:P-400"
+      ]
+    },
+    "difficulty": {
+      "hops": 1,
+      "entities": 2
+    }
+  },
+  {
+    "id": "Q-0400",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0401",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0402",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0403",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0404",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0405",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0406",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0407",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0408",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0409",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0410",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0411",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0412",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0413",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0414",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0415",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0416",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0417",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0418",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0419",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0420",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0421",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0422",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0423",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0424",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0425",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0426",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0427",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0428",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0429",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0430",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0431",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0432",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0433",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0434",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0435",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0436",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0437",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0438",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0439",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0440",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0441",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0442",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0443",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0444",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0445",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0446",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0447",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0448",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0449",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0450",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0451",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0452",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0453",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0454",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0455",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0456",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0457",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0458",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0459",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0460",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0461",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0462",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0463",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0464",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0465",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0466",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0467",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0468",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0469",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0470",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0471",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0472",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0473",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0474",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0475",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0476",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0477",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0478",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0479",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0480",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0481",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0482",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0483",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0484",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0485",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0486",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0487",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0488",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0489",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0490",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0491",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0492",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0493",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0494",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0495",
+    "category": "predictive",
+    "query": "Predict next likely failure for pump P-101",
+    "ground_truth": {
+      "answer": "Bearing wear based on historical frequency",
+      "entities": [
+        "Component:main_pump_P101",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0496",
+    "category": "predictive",
+    "query": "Which components are at risk given sensor trends?",
+    "ground_truth": {
+      "answer": "Components linked to vibration and temperature anomalies",
+      "entities": [
+        "Sensor:vibration_S4",
+        "Sensor:temp_anomaly"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  },
+  {
+    "id": "Q-0497",
+    "category": "predictive",
+    "query": "Based on work order history, what faults recur most?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation",
+      "entities": [
+        "Fault:bearing_wear_B4521",
+        "Fault:seal_degradation"
+      ]
+    },
+    "difficulty": {
+      "hops": 2,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0498",
+    "category": "predictive",
+    "query": "What is the failure trend for bearing B-4521 over time?",
+    "ground_truth": {
+      "answer": "Recurring failure pattern",
+      "entities": [
+        "Component:bearing_B4521",
+        "Fault:bearing_wear_B4521"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 1
+    }
+  },
+  {
+    "id": "Q-0499",
+    "category": "predictive",
+    "query": "Predict maintenance schedule based on historical data",
+    "ground_truth": {
+      "answer": "Scheduled maintenance intervals",
+      "entities": [
+        "WorkOrder:*"
+      ]
+    },
+    "difficulty": {
+      "hops": 3,
+      "entities": 3
+    }
+  }
+]

@@ -1,0 +1,3230 @@
+[
+  {
+    "from": "Symptom:grinding_1200RPM",
+    "to": "Fault:bearing_wear_B4521",
+    "type": "indicates",
+    "weight": 0.92
+  },
+  {
+    "from": "Symptom:pressure_fluctuation",
+    "to": "Fault:bearing_wear_B4521",
+    "type": "indicates",
+    "weight": 0.85
+  },
+  {
+    "from": "Symptom:temp_85C",
+    "to": "Fault:lubrication_failure",
+    "type": "causes",
+    "weight": 0.88
+  },
+  {
+    "from": "Symptom:pressure_drop",
+    "to": "Fault:seal_degradation",
+    "type": "indicates",
+    "weight": 0.91
+  },
+  {
+    "from": "Symptom:pressure_drop",
+    "to": "Fault:pressure_loss",
+    "type": "indicates",
+    "weight": 0.78
+  },
+  {
+    "from": "Symptom:flow_reduction",
+    "to": "Fault:valve_blockage",
+    "type": "indicates",
+    "weight": 0.84
+  },
+  {
+    "from": "Symptom:flow_reduction",
+    "to": "Fault:filter_clog",
+    "type": "indicates",
+    "weight": 0.72
+  },
+  {
+    "from": "Symptom:vibration_high",
+    "to": "Fault:misalignment",
+    "type": "indicates",
+    "weight": 0.89
+  },
+  {
+    "from": "Symptom:vibration_high",
+    "to": "Fault:bearing_wear_B4521",
+    "type": "indicates",
+    "weight": 0.75
+  },
+  {
+    "from": "Symptom:noise_whining",
+    "to": "Fault:pump_cavitation",
+    "type": "indicates",
+    "weight": 0.87
+  },
+  {
+    "from": "Symptom:leak_external",
+    "to": "Fault:seal_degradation",
+    "type": "indicates",
+    "weight": 0.95
+  },
+  {
+    "from": "Symptom:slow_response",
+    "to": "Fault:valve_blockage",
+    "type": "indicates",
+    "weight": 0.8
+  },
+  {
+    "from": "Symptom:dark_oil",
+    "to": "Fault:oil_contamination",
+    "type": "indicates",
+    "weight": 0.93
+  },
+  {
+    "from": "Fault:lubrication_failure",
+    "to": "Fault:bearing_wear_B4521",
+    "type": "causes",
+    "weight": 0.9
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "Fault:valve_blockage",
+    "type": "causes",
+    "weight": 0.75
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "Fault:oil_contamination",
+    "type": "causes",
+    "weight": 0.82
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "Fault:vibration_excess",
+    "type": "causes",
+    "weight": 0.88
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "Fault:pressure_loss",
+    "type": "causes",
+    "weight": 0.91
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "Fault:bearing_wear_B4521",
+    "type": "causes",
+    "weight": 0.7
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "Fault:seal_degradation",
+    "type": "causes",
+    "weight": 0.85
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "Fault:flow_reduction",
+    "type": "causes",
+    "weight": 0.83
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "Procedure:P-205",
+    "type": "addressed_by",
+    "weight": 0.95
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "Procedure:P-110",
+    "type": "addressed_by",
+    "weight": 0.93
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "Procedure:P-301",
+    "type": "addressed_by",
+    "weight": 0.9
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "Procedure:P-210",
+    "type": "addressed_by",
+    "weight": 0.88
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "Procedure:P-400",
+    "type": "addressed_by",
+    "weight": 0.92
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "Procedure:P-102",
+    "type": "addressed_by",
+    "weight": 0.97
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "Procedure:P-150",
+    "type": "addressed_by",
+    "weight": 0.91
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "Procedure:P-500",
+    "type": "addressed_by",
+    "weight": 0.85
+  },
+  {
+    "from": "Procedure:P-205",
+    "to": "Part:bearing_SKF_6210",
+    "type": "requires",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-110",
+    "to": "Part:seal_kit_VIT200",
+    "type": "requires",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-110",
+    "to": "Part:o_ring_kit_OR1",
+    "type": "requires",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-102",
+    "to": "Part:filter_element_HF10",
+    "type": "requires",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-400",
+    "to": "Part:oil_ISO46",
+    "type": "requires",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-400",
+    "to": "Part:filter_element_HF10",
+    "type": "requires",
+    "weight": 0.8
+  },
+  {
+    "from": "Procedure:P-150",
+    "to": "Part:coupling_insert_CI1",
+    "type": "requires",
+    "weight": 0.6
+  },
+  {
+    "from": "Procedure:P-500",
+    "to": "Procedure:P-205",
+    "type": "precedes",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-400",
+    "to": "Procedure:P-210",
+    "type": "precedes",
+    "weight": 0.9
+  },
+  {
+    "from": "Procedure:P-205",
+    "to": "SafetyProtocol:SP-001",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-205",
+    "to": "SafetyProtocol:SP-002",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-301",
+    "to": "SafetyProtocol:SP-001",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-301",
+    "to": "SafetyProtocol:SP-002",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-110",
+    "to": "SafetyProtocol:SP-001",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-110",
+    "to": "SafetyProtocol:SP-002",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Procedure:P-400",
+    "to": "SafetyProtocol:SP-003",
+    "type": "has_safety_protocol",
+    "weight": 1.0
+  },
+  {
+    "from": "Component:bearing_B4521",
+    "to": "Component:main_pump_P101",
+    "type": "part_of",
+    "weight": 1.0
+  },
+  {
+    "from": "Component:seal_kit_SK1",
+    "to": "Component:cylinder_CYL1",
+    "type": "part_of",
+    "weight": 1.0
+  },
+  {
+    "from": "Component:filter_unit_FU1",
+    "to": "Component:hydraulic_circuit_HC3",
+    "type": "part_of",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "Sensor:vibration_S4",
+    "type": "risk_indicator",
+    "weight": 0.89
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "Sensor:temp_S2",
+    "type": "risk_indicator",
+    "weight": 0.92
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "Sensor:pressure_S1",
+    "type": "risk_indicator",
+    "weight": 0.88
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0001",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0001",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0002",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0002",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0003",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0003",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0004",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0004",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0005",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0005",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0005",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0006",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0006",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0007",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0007",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0008",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0008",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0008",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0008",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0009",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0009",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0009",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0009",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0010",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0010",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0010",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0011",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0012",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0012",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0013",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0013",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0013",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0014",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0014",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0014",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0015",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0015",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0015",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0016",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0016",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0016",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0017",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0017",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0018",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0018",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0018",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0019",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0019",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0019",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0020",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0020",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0020",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0021",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0021",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0021",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0022",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0022",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0023",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0024",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0024",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0024",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0025",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0026",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0026",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0027",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0027",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0028",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0028",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0029",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0029",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0030",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0030",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0031",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0031",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0031",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0031",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0032",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0032",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0033",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0033",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0033",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0034",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0035",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0036",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0036",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0037",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0038",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0038",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0039",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0039",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0039",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0040",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0040",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0041",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0041",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0042",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0042",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0043",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0043",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0044",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0044",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0044",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0045",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0046",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0046",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0047",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0047",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0048",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0049",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0049",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0049",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0050",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0051",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0051",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0052",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0052",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0052",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0053",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0053",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0054",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0054",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0054",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0055",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0055",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0055",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0055",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0056",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0057",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0057",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0057",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0058",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0058",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0059",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0060",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0060",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0061",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0061",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0062",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0062",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0062",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0063",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0063",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0064",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0064",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0064",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0065",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0066",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0066",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0066",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0067",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0067",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0068",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0069",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0069",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0069",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0070",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0070",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0070",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0071",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0071",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0072",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0073",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0073",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0073",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0074",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0075",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0075",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0076",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0076",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0076",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0077",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0078",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0078",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0078",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0079",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0080",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0080",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0081",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0081",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0082",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0082",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0082",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0082",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0083",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0083",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0083",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0084",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0084",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0085",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0085",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0085",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0086",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0086",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0086",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0087",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0087",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0088",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0089",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0090",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0090",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0091",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0091",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0091",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0092",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0092",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0093",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0093",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0093",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0094",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0094",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0094",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0095",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0095",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0095",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0096",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0096",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0096",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0096",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0097",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0097",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0098",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0098",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0099",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0099",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0099",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0099",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0100",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0100",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0100",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0100",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0101",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0101",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0101",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0101",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0102",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0102",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0102",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0103",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0103",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0103",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0104",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0104",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0105",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0105",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0106",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0106",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0107",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0107",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0108",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0108",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0108",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0109",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0109",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0110",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0110",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0111",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0111",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0112",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0112",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0112",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0113",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0113",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0113",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0113",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0114",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0115",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0115",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0116",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0116",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0116",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0116",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0117",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0117",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0117",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0117",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0118",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0118",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0118",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0119",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0119",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0120",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0121",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0121",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0121",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0121",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0122",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0122",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0122",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0122",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0123",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0123",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0123",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0124",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0124",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0125",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0125",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0126",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0126",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0126",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0127",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0127",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0127",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0127",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0128",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0128",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0129",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0130",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0131",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0131",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0131",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0132",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0133",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0134",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0134",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0135",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0135",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0135",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0136",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0136",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0137",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0137",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0137",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0138",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0139",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0139",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0140",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0140",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0140",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0140",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0141",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0141",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0141",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0142",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0142",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0143",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0144",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0144",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0145",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0145",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0146",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0146",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0147",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0148",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0148",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0149",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0149",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0149",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0150",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0150",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0150",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0150",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0151",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0151",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0151",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0152",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0152",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0152",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0153",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0153",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0153",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0154",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0154",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0154",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0154",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0155",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0156",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0156",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0156",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0157",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0158",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0158",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0159",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0159",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0160",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0160",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0160",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0161",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0161",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0161",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0162",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0163",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0163",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0164",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0164",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0164",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0164",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0165",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0165",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0166",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0167",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0168",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0168",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0168",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0168",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0169",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0169",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0169",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0170",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0170",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0170",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0171",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0171",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0172",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0172",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0172",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0173",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0173",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0173",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0174",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0174",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0175",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0175",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0175",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0175",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0176",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0176",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0176",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0177",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0178",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0178",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0178",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0179",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0179",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0179",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0180",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0181",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0181",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0181",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0182",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0182",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0182",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0183",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0183",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0183",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0183",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0184",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0184",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0185",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0185",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0185",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0185",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0186",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:misalignment",
+    "to": "WorkOrder:WO-0186",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0186",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0187",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0187",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0187",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0187",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0188",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0188",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0188",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0188",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:oil_contamination",
+    "to": "WorkOrder:WO-0189",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0189",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0189",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0190",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0190",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0191",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0191",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0191",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0191",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0192",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0192",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0192",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0193",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0193",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0193",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:overheating",
+    "to": "WorkOrder:WO-0194",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:seal_kit_VIT200",
+    "to": "WorkOrder:WO-0194",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pressure_loss",
+    "to": "WorkOrder:WO-0195",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0195",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "WorkOrder:WO-0196",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0196",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0196",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:o_ring_kit_OR1",
+    "to": "WorkOrder:WO-0196",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:pump_cavitation",
+    "to": "WorkOrder:WO-0197",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0197",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0197",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0197",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:seal_degradation",
+    "to": "WorkOrder:WO-0198",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:filter_element_HF10",
+    "to": "WorkOrder:WO-0198",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:oil_ISO46",
+    "to": "WorkOrder:WO-0198",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:valve_blockage",
+    "to": "WorkOrder:WO-0199",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:filter_clog",
+    "to": "WorkOrder:WO-0200",
+    "type": "occurred_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Part:bearing_SKF_6210",
+    "to": "WorkOrder:WO-0200",
+    "type": "replaced_in",
+    "weight": 1.0
+  },
+  {
+    "from": "Fault:bearing_wear_B4521",
+    "to": "Fault:vibration_excess",
+    "type": "correlates_with",
+    "weight": 0.87
+  },
+  {
+    "from": "Sensor:temp_anomaly",
+    "to": "Sensor:pressure_S1",
+    "type": "correlates_with",
+    "weight": 0.73
+  }
+]

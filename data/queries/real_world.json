@@ -1,0 +1,255 @@
+[
+  {
+    "id": "RW-001",
+    "source": "Partner A",
+    "query": "The hydraulic press is making grinding noise at 1200 RPM with pressure fluctuations and oil temperature at 85°C. What is the most likely fault and recommended repair procedure?",
+    "ground_truth": {
+      "answer": "Bearing wear B-4521. Replace bearing using Procedure P-205 (SKF 6210 bearing). Safety: Lockout/Tagout SP-001 and Pressure Release SP-002 required.",
+      "entities": ["Symptom:grinding_1200RPM", "Symptom:pressure_fluctuation", "Symptom:temp_85C", "Fault:bearing_wear_B4521", "Procedure:P-205"],
+      "path": ["grinding_1200RPM", "indicates", "bearing_wear_B4521", "addressed_by", "P-205"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 5,
+    "technician_notes": "Classic bearing failure signature. Technician confirmed diagnosis was accurate and procedure was correct."
+  },
+  {
+    "id": "RW-002",
+    "source": "Partner A",
+    "query": "Pressure drop detected on circuit HC-3. External oil leak visible near cylinder area. What should we check first?",
+    "ground_truth": {
+      "answer": "Seal degradation. Inspect seal kit assembly SK-1 on cylinder CYL-1. Procedure P-110 for seal replacement.",
+      "entities": ["Symptom:pressure_drop", "Symptom:leak_external", "Fault:seal_degradation", "Procedure:P-110"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 5,
+    "technician_notes": "Correct identification. Seal was visibly worn."
+  },
+  {
+    "id": "RW-003",
+    "source": "Partner A",
+    "query": "Flow rate has dropped by 30% on the main hydraulic circuit. No visible leaks. What are the possible causes?",
+    "ground_truth": {
+      "answer": "Valve blockage or filter clogging. Check filter unit FU-1 first (simpler), then servo valve SV-1.",
+      "entities": ["Symptom:flow_reduction", "Fault:valve_blockage", "Fault:filter_clog"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 4,
+    "technician_notes": "Filter was clogged. Good that it suggested checking filter first."
+  },
+  {
+    "id": "RW-004",
+    "source": "Partner A",
+    "query": "Complete repair procedure for bearing B-4521 replacement including all required parts and safety protocols.",
+    "ground_truth": {
+      "answer": "Procedure P-205. Parts: SKF 6210 bearing. Safety: SP-001 Lockout/Tagout, SP-002 Pressure Release. Estimated time: 4 hours. Skill level: advanced.",
+      "entities": ["Procedure:P-205", "Part:bearing_SKF_6210", "SafetyProtocol:SP-001", "SafetyProtocol:SP-002"]
+    },
+    "category": "procedural",
+    "expert_rating": 5,
+    "technician_notes": "Comprehensive procedure with all safety requirements."
+  },
+  {
+    "id": "RW-005",
+    "source": "Partner A",
+    "query": "Oil is dark and contaminated. What is the full procedure to address this including all parts needed?",
+    "ground_truth": {
+      "answer": "Oil contamination. Procedure P-400 (Oil Flush and Replace). Parts: ISO 46 hydraulic oil, HF-10 filter element.",
+      "entities": ["Symptom:dark_oil", "Fault:oil_contamination", "Procedure:P-400", "Part:oil_ISO46", "Part:filter_element_HF10"]
+    },
+    "category": "procedural",
+    "expert_rating": 5,
+    "technician_notes": "Correct diagnosis and procedure."
+  },
+  {
+    "id": "RW-006",
+    "source": "Partner A",
+    "query": "Whining noise from the pump area detected during startup. What is the most likely fault?",
+    "ground_truth": {
+      "answer": "Pump cavitation. This is caused by air entrainment or low oil level in reservoir OR-1.",
+      "entities": ["Symptom:noise_whining", "Fault:pump_cavitation", "Component:main_pump_P101"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 4,
+    "technician_notes": "Oil level was slightly low. Cavitation confirmed."
+  },
+  {
+    "id": "RW-007",
+    "source": "Partner A",
+    "query": "What is the normal operating temperature range for the hydraulic system and what happens if it exceeds this range?",
+    "ground_truth": {
+      "answer": "Normal range: 30-70°C (Sensor S2). Exceeding 70°C risks seal degradation and lubrication failure.",
+      "entities": ["Sensor:temp_S2", "Fault:overheating", "Fault:seal_degradation"]
+    },
+    "category": "factoid",
+    "expert_rating": 5,
+    "technician_notes": "Accurate information."
+  },
+  {
+    "id": "RW-008",
+    "source": "Partner B",
+    "query": "Predict the next likely failure mode for pump P-101 based on its maintenance history.",
+    "ground_truth": {
+      "answer": "Bearing wear is the most frequent recurring fault for P-101 based on work order history. MTBF: 8000 hours.",
+      "entities": ["Component:main_pump_P101", "Fault:bearing_wear_B4521"]
+    },
+    "category": "predictive",
+    "expert_rating": 4,
+    "technician_notes": "Historical pattern is correct. Bearing replacements have been most frequent."
+  },
+  {
+    "id": "RW-009",
+    "source": "Partner B",
+    "query": "High vibration detected on the main pump assembly. Multiple sensors showing anomalies. Root cause analysis?",
+    "ground_truth": {
+      "answer": "Primary: shaft misalignment or bearing wear. Check alignment first (P-150), then bearing condition.",
+      "entities": ["Symptom:vibration_high", "Fault:misalignment", "Fault:bearing_wear_B4521", "Procedure:P-150"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 5,
+    "technician_notes": "Misalignment confirmed. Alignment procedure resolved the issue."
+  },
+  {
+    "id": "RW-010",
+    "source": "Partner B",
+    "query": "The actuator is responding slowly to commands. What could be wrong and how do we fix it?",
+    "ground_truth": {
+      "answer": "Valve blockage in servo valve SV-1. Procedure P-210 for valve cleaning.",
+      "entities": ["Symptom:slow_response", "Fault:valve_blockage", "Procedure:P-210"]
+    },
+    "category": "procedural",
+    "expert_rating": 4,
+    "technician_notes": "Valve cleaning resolved the issue."
+  },
+  {
+    "id": "RW-011",
+    "source": "Partner B",
+    "query": "What parts should I order for a complete seal kit replacement on the press cylinder?",
+    "ground_truth": {
+      "answer": "Viton Seal Kit VIT-200-KIT ($120) and O-Ring Kit OR-STD-KIT ($25).",
+      "entities": ["Part:seal_kit_VIT200", "Part:o_ring_kit_OR1", "Procedure:P-110"]
+    },
+    "category": "factoid",
+    "expert_rating": 5,
+    "technician_notes": "Correct parts list."
+  },
+  {
+    "id": "RW-012",
+    "source": "Partner B",
+    "query": "Which components share common failure modes with bearing B-4521?",
+    "ground_truth": {
+      "answer": "Main pump P-101 (part-of relationship). Vibration excess and lubrication failure affect both.",
+      "entities": ["Component:bearing_B4521", "Component:main_pump_P101", "Fault:vibration_excess"]
+    },
+    "category": "relational",
+    "expert_rating": 4,
+    "technician_notes": "Good relational analysis."
+  },
+  {
+    "id": "RW-013",
+    "source": "Partner A",
+    "query": "What safety protocols are required for any work on the hydraulic press?",
+    "ground_truth": {
+      "answer": "SP-001 Lockout/Tagout and SP-002 Pressure Release for most procedures. SP-003 Hot Work Permit for welding.",
+      "entities": ["SafetyProtocol:SP-001", "SafetyProtocol:SP-002", "SafetyProtocol:SP-003"]
+    },
+    "category": "factoid",
+    "expert_rating": 5,
+    "technician_notes": "Complete safety information."
+  },
+  {
+    "id": "RW-014",
+    "source": "Partner A",
+    "query": "What is the complete causal chain from oil contamination to system failure?",
+    "ground_truth": {
+      "answer": "Filter clog → oil contamination → valve blockage → flow reduction → pressure loss.",
+      "entities": ["Fault:filter_clog", "Fault:oil_contamination", "Fault:valve_blockage", "Fault:flow_reduction", "Fault:pressure_loss"]
+    },
+    "category": "relational",
+    "expert_rating": 5,
+    "technician_notes": "Accurate causal chain representation."
+  },
+  {
+    "id": "RW-015",
+    "source": "Partner B",
+    "query": "Which sensors should we monitor to predict bearing wear?",
+    "ground_truth": {
+      "answer": "Vibration sensor S4 (primary indicator) and temperature sensor S2 (secondary). Thresholds: >4.5 mm/s vibration, >70°C temp.",
+      "entities": ["Sensor:vibration_S4", "Sensor:temp_S2", "Fault:bearing_wear_B4521"]
+    },
+    "category": "predictive",
+    "expert_rating": 5,
+    "technician_notes": "Correct sensors and thresholds."
+  },
+  {
+    "id": "RW-016",
+    "source": "Partner A",
+    "query": "Pressure relief valve PRV-1 has tripped multiple times this week. What is the root cause?",
+    "ground_truth": {
+      "answer": "Likely pressure loss fault from seal degradation or pump issues. Check seal condition and pump output.",
+      "entities": ["Component:pressure_relief_PRV1", "Fault:pressure_loss", "Fault:seal_degradation"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 4,
+    "technician_notes": "Seal was degraded. Root cause correctly identified."
+  },
+  {
+    "id": "RW-017",
+    "source": "Partner B",
+    "query": "What is the estimated total cost for a complete pump overhaul?",
+    "ground_truth": {
+      "answer": "Procedure P-301. Primary parts: SKF 6210 bearing ($85), seal kit ($120), O-ring kit ($25). Estimated total parts: $230+. Labor: 8 hours.",
+      "entities": ["Procedure:P-301", "Part:bearing_SKF_6210", "Part:seal_kit_VIT200"]
+    },
+    "category": "factoid",
+    "expert_rating": 4,
+    "technician_notes": "Parts cost estimate was reasonable."
+  },
+  {
+    "id": "RW-018",
+    "source": "Partner A",
+    "query": "If bearing B-4521 fails, what cascading failures could occur?",
+    "ground_truth": {
+      "answer": "Bearing wear → excessive vibration → shaft misalignment → pump damage. Also bearing wear → seal degradation via heat.",
+      "entities": ["Fault:bearing_wear_B4521", "Fault:vibration_excess", "Fault:misalignment"]
+    },
+    "category": "predictive",
+    "expert_rating": 5,
+    "technician_notes": "Excellent cascading failure analysis."
+  },
+  {
+    "id": "RW-019",
+    "source": "Partner B",
+    "query": "Compare the repair time and complexity between seal replacement and bearing replacement.",
+    "ground_truth": {
+      "answer": "Seal replacement (P-110): 2 hours, intermediate skill. Bearing replacement (P-205): 4 hours, advanced skill.",
+      "entities": ["Procedure:P-110", "Procedure:P-205"]
+    },
+    "category": "relational",
+    "expert_rating": 5,
+    "technician_notes": "Accurate comparison."
+  },
+  {
+    "id": "RW-020",
+    "source": "Partner A",
+    "query": "What is the maintenance priority order for three simultaneous issues: filter clog, bearing noise, and oil leak?",
+    "ground_truth": {
+      "answer": "1. Oil leak (safety + damage prevention), 2. Bearing noise (progressive failure risk), 3. Filter clog (lower severity).",
+      "entities": ["Fault:filter_clog", "Fault:bearing_wear_B4521", "Fault:seal_degradation"]
+    },
+    "category": "diagnostic",
+    "expert_rating": 4,
+    "technician_notes": "Good prioritization logic."
+  },
+  {
+    "id": "RW-021",
+    "source": "Partner B",
+    "query": "Based on the last 6 months of work orders, which faults recur most frequently and what preventive actions should we take?",
+    "ground_truth": {
+      "answer": "Bearing wear and seal degradation are most frequent. Preventive: regular vibration monitoring, scheduled seal inspections, oil analysis program.",
+      "entities": ["Fault:bearing_wear_B4521", "Fault:seal_degradation"]
+    },
+    "category": "predictive",
+    "expert_rating": 4,
+    "technician_notes": "Good predictive maintenance recommendations."
+  }
+]
