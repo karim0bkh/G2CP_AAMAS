@@ -149,7 +149,7 @@ g2cp/
 ```bibtex
 @inproceedings{benkhaled2026g2cp,
   title={G²CP: A Graph-Grounded Communication Protocol for Verifiable and Efficient Multi-Agent Reasoning},
-  author={Ben Khaled, Karim and Monticolo, Davy and Mastagli, Maxime},
+  author={Ben Khaled, Karim and Monticolo, Davy},
   booktitle={Proc. of the 25th International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026)},
   year={2026}
 }
